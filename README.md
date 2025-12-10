@@ -48,6 +48,10 @@ Relaciones:
 ##  Diagrama Entidad-Relacion 
 <img width="1322" height="1059" alt="Copy of Modelo de datos Delivery" src="https://github.com/user-attachments/assets/c326dac1-36b2-4a7b-a77a-fd4a46f03118" />
 
+##  Código en dbdiagram.io 
+<img width="756" height="833" alt="image" src="https://github.com/user-attachments/assets/f09afb9c-9e98-4051-8966-fb996e8f34ea" />
+
+
 ## Pipeline de datos
 Se utilizo la estructura de medallón.
 <img width="850" height="335" alt="image" src="https://github.com/user-attachments/assets/b4b6568a-a4b8-4d1c-ac9a-e4a035d8d19f" />
