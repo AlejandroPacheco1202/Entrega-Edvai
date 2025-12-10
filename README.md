@@ -38,6 +38,7 @@ Relaciones:
 ## 🔜 Desarrollo del proyecto
 - El dataset proviene de Kaggle: https://www.kaggle.com/datasets/yashyennewar/product-sales-dataset-2023-2024
 - Elegí este data set por estar relacionado con ventas, tener muchos registros, ser de fácil comprensión y tener datos de 2 años completos lo que permitia realizar algunas medidas con inteligencia de tiempo.
+- Luego realizada la preparacion, ingesta, transformación y conexión con Power BI detecté que el dataset no tenia muchas posibilidades para hacer análisis mas complejos. Por este motivo me limité a hacer una analítica descripitva sencilla con algunas medidas comparativas de tiempo.
 
 
 
