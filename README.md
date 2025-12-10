@@ -9,12 +9,12 @@ Diseñar un dashboard profesional que permita:
 - Comparar el rendimiento mensual y anual.
 - Identificar productos de bajo desempeño.
 - Aplicar buenas prácticas de modelado, diseño visual y DAX.
+  
 
 ## 🧪 Caso de estudio
 El dataset representa transacciones de ventas con información de productos, clientes, fechas y beneficios. Se simula el análisis de una empresa minorista que busca mejorar su rentabilidad y tomar decisiones basadas en datos.
 
 ## 💡 Hipótesis de negocio
-- Algunos productos tienen bajo volumen de ventas y podrían ser descontinuados.
 - El ticket promedio varía significativamente entre clientes.
 - El margen bruto tiene estacionalidad y puede optimizarse.
 - La inteligencia de tiempo permite detectar tendencias y comparar períodos.
@@ -34,6 +34,10 @@ Relaciones:
 - `fact_ventas[producto_id]` → `dim_producto[producto_id]`
 - `fact_ventas[cliente_id]` → `dim_cliente[cliente_id]`
 - `fact_ventas[fecha]` → `dim_fecha[fecha]`
+
+## 🔜 Desarrollo del proyecto
+
+
 
 ---
 
