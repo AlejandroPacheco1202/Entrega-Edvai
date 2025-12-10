@@ -45,6 +45,61 @@ Relaciones:
 
 
 
+##  Diagrama Entidad-Relacion 
+<img width="1322" height="1059" alt="Copy of Modelo de datos Delivery" src="https://github.com/user-attachments/assets/c326dac1-36b2-4a7b-a77a-fd4a46f03118" />
+
+## Codigo DER
+Project {
+  database_type: "CSV BigQuery"
+  note: "Modelo en estrella para análisis de ventas (Power BI)"
+}
+
+Table dim_cliente {
+  cliente_id        int        [pk, note: "Clave del cliente"]
+  nombre_cliente    varchar(200)
+  estado  varchar(100)
+  region  varchar(100)
+  ciudad  varchar(100)
+}
+
+Table dim_producto {
+  producto_id       int        [pk, note: "Clave del producto"]
+  nombre_producto   varchar(200)
+  categoria         varchar(100)
+  subcategoria      varchar(100)
+}
+
+Table dim_fecha {
+  fecha             date        [pk, note: "Clave del calendario"]
+  anio              int
+  trimestre         int
+  mes               int
+  mes_nombre        varchar(20)
+  dia               int
+  dia_semana        varchar(20)
+  semana_anio       int
+}
+
+Table fact_ventas {
+  order_id          int        [pk, note: "Clave de la orden/pedido"]
+  cliente_id        int        [ref: > dim_cliente.cliente_id]
+  producto_id       int        [ref: > dim_producto.producto_id]
+  categoria         varchar    [ref: > dim_producto.categoria]
+  fecha             date       [ref: > dim_fecha.fecha]
+  ciudad            varchar    [ref: > dim_cliente.ciudad]
+  estado            varchar    [ref: > dim_cliente.estado]
+  cantidad          int        [note: "Unidades vendidas"]
+  precio_unitario   numeric(18,2)
+  ingresos          numeric(18,2) [note: "cantidad * precio_unitario / viene del dataset"]
+  beneficio         numeric(18,2)
+  nombre_cliente    varchar(100)
+  nombre_producto   varchar(100) [ref: > dim_producto.nombre_producto]
+  region            varchar    [ref: > dim_cliente.region]
+
+}
+
+
+
 
 ---
 
