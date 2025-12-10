@@ -20,14 +20,8 @@ El dataset representa transacciones de ventas con información de productos, cli
 - La inteligencia de tiempo permite detectar tendencias y comparar períodos.
 
 ## 📐 Plan de métricas
-- `Q_Total`: Unidades vendidas.
-- `$_Total_Ingresos`: Ingresos totales.
-- `$_Total_Margen_bruto`: Beneficio total.
-- `Ticket_Promedio`: Ingresos promedio por venta.
-- `Cantidad_Promedio_Ticket`: Unidades promedio por ticket.
-- `Margen_Bruto_Promedio_Ticket`: Margen promedio por venta.
-- `Ventas_Unidades_PY`: Unidades vendidas en el mismo período del año anterior.
-- `Top5_Menos_Venta_Flag`: Identificador de productos con menor venta.
+<img width="1640" height="528" alt="image" src="https://github.com/user-attachments/assets/e87b648f-e202-4d4c-8c66-87d69304442d" />
+
 
 ## 🧱 Modelo de datos
 Modelo en estrella compuesto por:
