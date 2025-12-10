@@ -36,6 +36,8 @@ Relaciones:
 - `fact_ventas[fecha]` → `dim_fecha[fecha]`
 
 ## 🔜 Desarrollo del proyecto
+- El dataset proviene de Kaggle: https://www.kaggle.com/datasets/yashyennewar/product-sales-dataset-2023-2024
+- Elegí este data set por estar relacionado con ventas, tener muchos registros, ser de fácil comprensión y tener datos de 2 años completos lo que permitia realizar algunas medidas con inteligencia de tiempo.
 
 
 
