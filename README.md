@@ -71,7 +71,17 @@ Se utilizo la estructura de medallón.
 <img width="1127" height="736" alt="image" src="https://github.com/user-attachments/assets/bf4c5861-d949-4688-b23b-58f08284dbbe" />
 
 ## Modelo de datos en Power BI 📶
+- En el modelo de datos se agregó una tabla para alojar las medidas DAX
+- Además en el modelo semántico se agregó un Grupo de Cálculo con 3 Elementos de cálculo: unidades, ingreso y margen bruto. Con este Grupo de calculo podemos realizar visualizaciones dinámicas de estas 3 tipo de datos en un solo objeto y creando menos medidas para tal fin. Este herramienta permite configurar el tipo de dato ajutado a cada valor.
+
 <img width="1423" height="768" alt="image" src="https://github.com/user-attachments/assets/f86aa9f8-0901-407d-98fc-99ea48c4fda5" />
+
+## Diseño de lienzo
+
+- Para el fondo de lienzo se utilizo la herramienta Figma. Utilizamos una plantilla que luego fuimos modificando a partir de las necesidades.
+
+<img width="149" height="76" alt="image" src="https://github.com/user-attachments/assets/0b6f2e80-4b15-4aa9-951b-114a2a92f72f" />
+
 
 
 
