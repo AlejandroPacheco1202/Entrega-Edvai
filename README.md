@@ -84,34 +84,26 @@ Se utilizo la estructura de medallón.
 
 ## Conclusiones
 
+- Las ventas totales muestran una tendencia positiva en el último trimestre, con un crecimiento sostenido respecto al período anterior.
+
+- El análisis comparativo con el año anterior muestra un incremento moderado en ingresos, aunque con diferencias significativas entre canales de venta
 
 <img width="1406" height="800" alt="image" src="https://github.com/user-attachments/assets/9f8ff667-6d68-4575-b19f-ac571cce6d68" />
 
-
-
+- El ticket promedio se mantuvo estable, lo que indica que los clientes compran cantidades similares, aunque con ligeras variaciones en categorías específicas
 
 <img width="1376" height="781" alt="image" src="https://github.com/user-attachments/assets/8313301b-7238-4019-bdc0-a14733331917" />
 
+- Los productos más vendidos concentran gran parte de los ingresos, mientras que existe un grupo de artículos con baja rotación que podrían revisarse.
 
 <img width="1394" height="775" alt="image" src="https://github.com/user-attachments/assets/d324b318-35a0-4ed6-8b04-a00bf578e4ed" />
 
+- La distribución geográfica de las ventas refleja que ciertas regiones aportan la mayoría de los ingresos, lo que abre la posibilidad de expandir esfuerzos comerciales en zonas menos activas.
 
 <img width="1397" height="799" alt="image" src="https://github.com/user-attachments/assets/65426466-5586-4a41-837f-927d0603f706" />
 
 
-## Link al informe
+## Dashboard de Ventas
 
-https://app.powerbi.com/groups/me/reports/0bf1f8b3-b7ab-48a8-90b1-da75416921a8/4e5a4001eb90d30187ae?experience=power-bi
-
-
-
-
-
-
-
-
-
-
----
-
-> Este proyecto fue desarrollado como parte de un trabajo práctico para demostrar habilidades en modelado de datos, DAX, diseño de dashboards y análisis de negocio.
+Accede al informe completo en Power BI Service aquí:  
+[Ver informe en Power BI Service](https://app.powerbi.com/groups/me/reports/0bf1f8b3-b7ab-48a8-90b1-da75416921a8/4e5a4001eb90d30187ae?experience=power-bi)
