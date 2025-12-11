@@ -56,10 +56,22 @@ Relaciones:
 Se utilizo la estructura de medallón.
 <img width="850" height="335" alt="image" src="https://github.com/user-attachments/assets/b4b6568a-a4b8-4d1c-ac9a-e4a035d8d19f" />
 
+## Proceso ETL ⚙️
+- La capa Bronze está ubicada en Google Cloud: clase-476722.supermarket_sales.supermarket_sales. Allí se encuentra el CSV que fue extraido desde Kaggle. No se realizó ningún tipo de transformación.
+- Luego de un análisis del dataset concluimos que estaba limpio y con los datos bien estructurados y sin faltantes.
+- Solo se encontraron dos outliers que fueron eliminados.
+- Creacion de dimensiones: Cliente, Producto, Fecha y Fact_ventas
+
+## Codigo SQL para generar modelo de datos 
 
 <img width="832" height="679" alt="image" src="https://github.com/user-attachments/assets/1f3d9dfa-909c-42d6-b63b-3467328c7d4f" />
 <img width="670" height="693" alt="image" src="https://github.com/user-attachments/assets/dc158407-3605-4a86-9aea-ce8a22926531" />
 <img width="646" height="424" alt="image" src="https://github.com/user-attachments/assets/af5d04b7-af1d-441a-959d-698654887080" />
+
+<img width="1127" height="736" alt="image" src="https://github.com/user-attachments/assets/bf4c5861-d949-4688-b23b-58f08284dbbe" />
+
+## Modelo de datos en Power BI 📶
+<img width="1423" height="768" alt="image" src="https://github.com/user-attachments/assets/f86aa9f8-0901-407d-98fc-99ea48c4fda5" />
 
 
 
