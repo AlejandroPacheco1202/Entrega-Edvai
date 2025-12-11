@@ -99,6 +99,9 @@ Se utilizo la estructura de medallón.
 <img width="1397" height="799" alt="image" src="https://github.com/user-attachments/assets/65426466-5586-4a41-837f-927d0603f706" />
 
 
+## Link al informe
+
+https://app.powerbi.com/groups/me/reports/0bf1f8b3-b7ab-48a8-90b1-da75416921a8/4e5a4001eb90d30187ae?experience=power-bi
 
 
 
