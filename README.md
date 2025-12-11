@@ -82,6 +82,25 @@ Se utilizo la estructura de medallón.
 
 <img width="149" height="76" alt="image" src="https://github.com/user-attachments/assets/0b6f2e80-4b15-4aa9-951b-114a2a92f72f" />
 
+## Conclusiones
+
+
+<img width="1406" height="800" alt="image" src="https://github.com/user-attachments/assets/9f8ff667-6d68-4575-b19f-ac571cce6d68" />
+
+
+
+
+<img width="1376" height="781" alt="image" src="https://github.com/user-attachments/assets/8313301b-7238-4019-bdc0-a14733331917" />
+
+
+<img width="1394" height="775" alt="image" src="https://github.com/user-attachments/assets/d324b318-35a0-4ed6-8b04-a00bf578e4ed" />
+
+
+<img width="1397" height="799" alt="image" src="https://github.com/user-attachments/assets/65426466-5586-4a41-837f-927d0603f706" />
+
+
+
+
 
 
 
