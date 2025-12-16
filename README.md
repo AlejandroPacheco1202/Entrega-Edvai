@@ -1,5 +1,7 @@
 # 📊 Dashboard de Análisis de Ventas
 
+
+
 ## 📝 Descripción general
 Este proyecto consiste en el desarrollo de un dashboard interactivo en Power BI, basado en un dataset de Kaggle cargado en BigQuery. El objetivo es analizar las ventas, márgenes y comportamiento de clientes a través de métricas clave y visualizaciones claras, utilizando un modelo dimensional optimizado.
 
@@ -181,8 +183,12 @@ JOIN `static-gravity-428518-i6.silver_layer2.dim_cliente` c
 
 <img width="149" height="76" alt="image" src="https://github.com/user-attachments/assets/0b6f2e80-4b15-4aa9-951b-114a2a92f72f" />
 
-## Conclusiones
+## Dashboard de Ventas
 
+Accede al informe completo en Power BI Service aquí:  
+[Ver informe en Power BI Service](https://app.powerbi.com/groups/me/reports/0bf1f8b3-b7ab-48a8-90b1-da75416921a8/4e5a4001eb90d30187ae?experience=power-bi)
+
+## Conclusiones
 - Las ventas totales muestran una tendencia positiva en el último trimestre, con un crecimiento sostenido respecto al período anterior.
 
 - El análisis comparativo con el año anterior muestra un incremento moderado en ingresos, aunque con diferencias significativas entre canales de venta
@@ -202,7 +208,4 @@ JOIN `static-gravity-428518-i6.silver_layer2.dim_cliente` c
 <img width="1397" height="799" alt="image" src="https://github.com/user-attachments/assets/65426466-5586-4a41-837f-927d0603f706" />
 
 
-## Dashboard de Ventas
 
-Accede al informe completo en Power BI Service aquí:  
-[Ver informe en Power BI Service](https://app.powerbi.com/groups/me/reports/0bf1f8b3-b7ab-48a8-90b1-da75416921a8/4e5a4001eb90d30187ae?experience=power-bi)
