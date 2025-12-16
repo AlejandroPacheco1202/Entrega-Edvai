@@ -63,7 +63,7 @@ Se utilizo la estructura de medallón.
 - Creacion de dimensiones: Cliente, Producto, Fecha y Fact_ventas
 
 ## Codigo SQL para generar modelo de datos 
-
+```sql
 CREATE OR REPLACE TABLE `static-gravity-428518-i6.silver_layer2.dim_cliente` AS
 WITH base AS (
   SELECT DISTINCT
@@ -104,7 +104,6 @@ WITH base AS (
   WHERE Order_Date IS NOT NULL
 )
 SELECT
-  --ROW_NUMBER() OVER (ORDER BY fecha) AS fecha_id,   -- surrogate key
   fecha,
   EXTRACT(YEAR FROM fecha) AS anio,
   EXTRACT(MONTH FROM fecha) AS mes,
@@ -164,6 +163,8 @@ JOIN `static-gravity-428518-i6.silver_layer2.dim_cliente` c
  AND b.City = c.ciudad
  AND b.State = c.estado
  AND b.Region = c.region;
+ ```
+
 
 
 <img width="1127" height="736" alt="image" src="https://github.com/user-attachments/assets/bf4c5861-d949-4688-b23b-58f08284dbbe" />
